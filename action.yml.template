@@ -1,0 +1,11 @@
+name: flask-skeleton
+
+on: [push]
+
+jobs:
+  test:
+    name: python-latest
+    runs-on: python-latest
+    steps:
+      - name: 'linting'
+	uses: make test || true
