@@ -8,7 +8,6 @@ from unipath import Path
 PROJECT_DIR = Path(__file__).parent
 
 SECRET_KEY = config("SECRET_KEY", "")
-WTF_CSRF_ENABLED = config("WTF_CSRF_ENABLED", default=True, cast=bool)
 
 DEBUG = config("DEBUG", default=False, cast=bool)
 SERVER_HOST = config("SERVER_URL", default="localhost")

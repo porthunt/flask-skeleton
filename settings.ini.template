@@ -1,0 +1,5 @@
+[settings]
+DEBUG = <bool>
+SECRET_KEY = <string>
+SERVER_URL = <string>
+SERVER_PORT = <int>
