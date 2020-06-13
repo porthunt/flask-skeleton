@@ -6,7 +6,4 @@ home = Blueprint("home", __name__)
 
 @home.route("/")
 def index():
-    return {
-        "code": 200,
-        "status": "ok"
-    }
+    return {"code": 200, "status": "ok"}
