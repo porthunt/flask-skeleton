@@ -1,2 +1,2 @@
-from .home import home
-from .admin import admin
+from .home import home  # noqa
+from .admin import admin  # noqa
